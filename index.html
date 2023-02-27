@@ -1,0 +1,510 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Cardo:ital@1&family=Open+Sans:wght@700&family=Raleway:wght@400;600;700&display=swap" rel="stylesheet">
+    <title>BTS</title>
+</head>
+<body>
+
+<!----------- Symbol ----------->
+<svg style="display: none;">
+
+    <symbol id="facebook" viewBox="-9.5 0 32 32">
+        <path d="M7.44 26.68h-2.92c-1 0-1.84-0.84-1.84-1.84v-6.56h-0.84c-1
+0-1.84-0.84-1.84-1.84v-2.48c0-1 0.84-1.84 1.84-1.84h0.88v-0.8c0-3.68
+2.12-6 5.56-6 1.2 0 2.24 0.080 2.68 0.12 0.92 0.12 1.6 0.92 1.6 1.84v2.48c0
+1-0.84 1.84-1.84 1.84h-1.36v0.52h1.28c1 0 1.84 0.84 1.84 1.84 0 0.12 0 0.2-0.040
+0.32l-0.4 2.4c-0.12 0.88-0.92 1.56-1.84 1.56h-0.84v6.56c-0.040 1.040-0.88 1.88-1.92
+1.88zM1.84 13.8c-0.080 0-0.16 0.080-0.16 0.16v2.48c0 0.080 0.080 0.16 0.16
+0.16h1.72c0.48 0 0.84 0.36 0.84 0.84v7.36c0 0.080 0.080 0.16 0.16 0.16h2.92c0.080
+0 0.16-0.080 0.16-0.16v-7.36c0-0.48 0.36-0.84 0.84-0.84h1.68c0.080 0 0.16-0.080
+0.16-0.16l0.4-2.48c0-0.080-0.080-0.16-0.16-0.16h-2.12c-0.48
+0-0.84-0.36-0.84-0.84v-1.68c0-0.36 0.040-0.6 0.12-0.8s0.2-0.32 0.4-0.4c0.2-0.12
+0.48-0.16 0.88-0.16h1.68c0.080 0 0.16-0.080
+0.16-0.16v-2.48c0-0.080-0.080-0.16-0.16-0.16-0.32-0.040-1.32-0.12-2.44-0.12-3.36
+0-3.88 2.72-3.88 4.32v1.64c0 0.48-0.36 0.84-0.84 0.84 0 0-1.68 0-1.68 0z"></path>
+    </symbol>
+
+    <symbol id="instagram" viewBox="0 0 512.000000 512.000000">
+        <g transform="translate(0.000000,512.000000) scale(0.100000,-0.100000)" stroke="none">
+<path d="M1609 5110 c-330 -14 -556 -56 -747 -138 -179 -77 -285 -148 -417
+-279 -178 -177 -289 -376 -359 -643 -62 -236 -76 -507 -76 -1490 0 -967 13
+-1241 71 -1477 144 -587 574 -961 1207 -1048 181 -24 561 -35 1287 -35 675 0
+1064 10 1239 31 358 42 638 166 859 378 249 240 381 527 429 936 19 160 19
+2294 0 2445 -39 306 -130 558 -274 751 -71 96 -223 241 -318 306 -215 145
+-474 225 -815 254 -161 13 -1813 20 -2086 9z m2163 -483 c285 -42 445 -113
+599 -266 100 -100 155 -188 204 -324 82 -230 90 -352 90 -1482 0 -651 -4 -964
+-13 -1069 -29 -347 -98 -534 -260 -707 -169 -180 -380 -269 -707 -299 -177
+-17 -1640 -25 -1977 -11 -152 6 -311 16 -354 22 -189 26 -372 93 -486 176 -71
+53 -185 177 -227 247 -84 140 -134 337 -151 587 -30 454 -20 2012 14 2270 36
+267 119 447 276 599 172 167 398 248 748 270 76 4 587 7 1137 5 853 -2 1016
+-4 1107 -18z"/>
+<path d="M3802 4200 c-113 -57 -167 -145 -167 -275 0 -94 22 -150 86 -214 64
+-63 120 -86 214 -86 67 0 89 4 137 28 101 50 158 137 166 253 7 103 -16 163
+-87 235 -66 66 -124 89 -221 89 -54 0 -78 -6 -128 -30z"/>
+<path d="M2336 3854 c-263 -48 -496 -171 -692 -368 -260 -259 -385 -562 -385
+-926 0 -220 41 -401 132 -583 280 -556 896 -841 1495 -692 236 59 418 161 595
+332 159 154 266 322 333 523 48 145 66 257 66 420 0 162 -18 275 -65 417 -64
+192 -157 344 -302 494 -198 204 -445 336 -717 384 -111 19 -352 19 -460 -1z
+m396 -458 c458 -88 762 -538 674 -999 -54 -279 -259 -527 -521 -628 -128 -50
+-202 -62 -350 -56 -105 4 -146 10 -215 32 -303 96 -524 341 -586 649 -24 119
+-15 304 21 416 94 298 345 525 644 585 89 18 243 18 333 1z"/>
+</g>
+    </symbol>
+
+    <symbol id="twitter" viewBox="0 0 20 20">
+        <g>
+            <path d="M18.94 4.46c-.49.73-1.11 1.38-1.83 1.9.01.15.01.31.01.47 0 4.85-3.69 10.44-10.43 10.44-2.07 0-4-.61-5.63-1.65.29.03.58.05.88.05 1.72 0 3.3-.59 4.55-1.57-1.6-.03-2.95-1.09-3.42-2.55.22.04.45.07.69.07.33 0 .66-.05.96-.13-1.67-.34-2.94-1.82-2.94-3.6v-.04c.5.27 1.06.44 1.66.46-.98-.66-1.63-1.78-1.63-3.06 0-.67.18-1.3.5-1.84 1.81 2.22 4.51 3.68 7.56 3.83-.06-.27-.1-.55-.1-.84 0-2.02 1.65-3.66 3.67-3.66 1.06 0 2.01.44 2.68 1.16.83-.17 1.62-.47 2.33-.89-.28.85-.86 1.57-1.62 2.02.75-.08 1.45-.28 2.11-.57z"/>
+            </g>
+    </symbol>
+
+</svg>
+
+
+<!----------- Header ----------->
+<header class="header">
+    <div class="container">
+        <div class="header__inner">
+            <div class="header__logo">
+                <img class="header__img" src="img/png,svg/1.svg" alt="">
+            </div>
+
+            <nav class="nav">
+                <a class="nav__link" href="#">Features</a>
+                <a class="nav__link" href="#">Works</a>
+                <a class="nav__link" href="#">Our Team</a>
+                <a class="nav__link" href="#">Testimonials</a>
+                <a class="nav__link" href="#">Download</a>
+            </nav>
+        </div>
+    </div>
+</header>
+
+
+<!----------- Intro ----------->
+<div class="intro">
+    <div class="container">
+        <div class="intro__inner">
+            <h1 class="intro__title">BTS: We Are Bulletproof Answer Love Yourself</h1>
+            <h2 class="intro__subtitle">Music has been my outlet, my gift to all of the lovers in this world. Through it — my music, I know I will live forever.</h2>
+            <a class="btn  btn--red" href="#">Find Out More</a>
+        </div>
+    </div>
+</div>
+
+
+<!----------- Features ----------->
+<div class="container">
+    <div class="features">
+
+        <div class="features__item">
+            <img class="features__icon" src="img/png,svg/11.png" alt="">
+            <h4 class="features__title">Dynamite</h4>
+            <div class="features__text">You may have the greatest talent in the world, but if you don't prepare and work according to plan, everything will go to waste</div>
+        </div>
+
+        <div class="features__item">
+            <img class="features__icon" src="img/png,svg/22.png" alt="">
+            <h4 class="features__title">MIC Drop</h4>
+            <div class="features__text">You may have the greatest talent in the world, but if you don't prepare and work according to plan, everything will go to waste</div>
+        </div>
+
+        <div class="features__item">
+            <img class="features__icon" src="img/png,svg/33.png" alt="">
+            <h4 class="features__title">Spring Day</h4>
+            <div class="features__text">You may have the greatest talent in the world, but if you don't prepare and work according to plan, everything will go to waste</div>
+        </div>
+
+        <div class="features__item">
+            <img class="features__icon" src="img/png,svg/44.png" alt="">
+            <h4 class="features__title">Mikrokosmos</h4>
+            <div class="features__text">You may have the greatest talent in the world, but if you don't prepare and work according to plan, everything will go to waste</div>
+        </div>
+
+        <div class="features__item">
+            <img class="features__icon" src="img/png,svg/55.png" alt="">
+            <h4 class="features__title">Fake Love</h4>
+            <div class="features__text">You may have the greatest talent in the world, but if you don't prepare and work according to plan, everything will go to waste</div>
+        </div>
+
+        <div class="features__item">
+            <img class="features__icon" src="img/png,svg/66.png" alt="">
+            <h4 class="features__title">Black Swan</h4>
+            <div class="features__text">You may have the greatest talent in the world, but if you don't prepare and work according to plan, everything will go to waste</div>
+        </div>
+    </div>
+</div>
+
+
+<!----------- Works ----------->
+<div class="works">
+    <div class="works__item">
+        <img class="works__image" src="img/image/bts5.jpeg" alt="">
+        <div class="works__content">
+            <div class="works__title">Project Name</div>
+            <div class="works__text">Ucer Interface Design</div>
+        </div>
+    </div>
+
+    <div class="works__item">
+        <img class="works__image" src="img/image/bts5.jpeg" alt="">
+        <div class="works__content">
+            <div class="works__title">Project Name</div>
+            <div class="works__text">Ucer Interface Design</div>
+        </div>
+    </div>
+
+    <div class="works__item">
+        <img class="works__image" src="img/image/bts5.jpeg" alt="">
+        <div class="works__content">
+            <div class="works__title">Project Name</div>
+            <div class="works__text">Ucer Interface Design</div>
+        </div>
+    </div>
+
+    <div class="works__item">
+        <img class="works__image" src="img/image/bts5.jpeg" alt="">
+        <div class="works__content">
+            <div class="works__title">Project Name</div>
+            <div class="works__text">Ucer Interface Design</div>
+        </div>
+    </div>
+
+    <div class="works__item">
+        <img class="works__image" src="img/image/bts5.jpeg" alt="">
+        <div class="works__content">
+            <div class="works__title">Project Name</div>
+            <div class="works__text">Ucer Interface Design</div>
+        </div>
+    </div>
+
+    <div class="works__item">
+        <img class="works__image" src="img/image/bts5.jpeg" alt="">
+        <div class="works__content">
+            <div class="works__title">Project Name</div>
+            <div class="works__text">Ucer Interface Design</div>
+        </div>
+    </div>
+
+    <div class="works__item">
+        <img class="works__image" src="img/image/bts5.jpeg" alt="">
+        <div class="works__content">
+            <div class="works__title">Project Name</div>
+            <div class="works__text">Ucer Interface Design</div>
+        </div>
+    </div>
+
+    <div class="works__item">
+        <img class="works__image" src="img/image/bts5.jpeg" alt="">
+        <div class="works__content">
+            <div class="works__title">Project Name</div>
+            <div class="works__text">Ucer Interface Design</div>
+        </div>
+    </div>
+</div>
+
+<!----------------- Team ------------------->
+<div class="team">
+    <div class="container">
+        <div class="team__inner">
+
+            <div class="team__item">
+                <img class="team__photo" src="img/image/26.jpeg" alt="">
+                <div class="team__name">Jung Hoseok</div>
+                <div class="team__prof">The main dancer, rapper</div>
+                <div class="team__text">
+                    <p> On June 13, 2013, J-Hope made his debut as a member of BTS on M! Countdown. He was the third member to join the group as a trainee after RM and Suga</p>
+                    <p>On June 14, 2019, J-Hope, together with fellow BTS member V, collaborated with Zara Larsson on a soundtrack song called "A Brand New Day" for the mobile game</p>
+                </div>
+
+
+<!--- /.social ---> <div class="social">
+                    <a class="social__item" href="#">
+                        <svg class="social__icon">
+                            <use xlink:href="#facebook"></use>
+                        </svg>
+                    </a>
+                    <a class="social__item" href="#">
+                        <svg class="social__icon--inst">
+                            <use xlink:href="#instagram"></use>
+                        </svg>
+                    </a>
+                    <a class="social__item" href="#">
+                        <svg class="social__icon--twitter">
+                            <use xlink:href="#twitter"></use>
+                        </svg>
+                    </a>
+                </div> 
+
+
+            </div>
+            <div class="team__item">
+                <img class="team__photo" src="img/image/27.jpeg" alt="">
+                <div class="team__name">Kim Taehyung</div>
+                <div class="team__prof">Visual, vocals</div>
+                <div class="team__text">
+                    <p>Pre-debut, he was the "secret member" of BTS. Fans were unaware of his existence as his agency wished to keep him a surprise. He stated the concept had made him feel uneasy and lonely</p>
+                    <p>He made his debut as a member of BTS on Mnet's M Countdown with the track "No More Dream" from their debut single album, 2 Cool 4 Skool. </p>
+                </div>
+
+
+<!--- /.social ---> <div class="social">
+                    <a class="social__item" href="#">
+                        <svg class="social__icon">
+                            <use xlink:href="#facebook"></use>
+                        </svg>
+                    </a>
+                    <a class="social__item" href="#">
+                        <svg class="social__icon--inst">
+                            <use xlink:href="#instagram"></use>
+                        </svg>
+                    </a>
+                    <a class="social__item" href="#">
+                        <svg class="social__icon--twitter">
+                            <use xlink:href="#twitter"></use>
+                        </svg>
+                    </a>
+                </div>
+
+
+            </div>
+            <div class="team__item">
+                <img class="team__photo" src="img/image/28.jpeg" alt="">
+                <div class="team__name">Kim Seok-Jin</div>
+                <div class="team__prof">Visual, Vocals</div>
+                <div class="team__text">
+                    <p>Kim was scouted by Big Hit Entertainment for his looks while walking down the street. At the time Kim was studying acting and had no background in music</p>
+                    <p>Subsequently, he auditioned for Big Hit as an actor before becoming an idol trainee. On June 13, 2013, Kim made his debut as one of the four vocalists in BTS with their debut.</p>
+                </div>
+
+
+<!--- /.social ---> <div class="social">
+                    <a class="social__item" href="#">
+                        <svg class="social__icon">
+                            <use xlink:href="#facebook"></use>
+                        </svg>
+                    </a>
+                    <a class="social__item" href="#">
+                        <svg class="social__icon--inst">
+                            <use xlink:href="#instagram"></use>
+                        </svg>
+                    </a>
+                    <a class="social__item" href="#">
+                        <svg class="social__icon--twitter">
+                            <use xlink:href="#twitter"></use>
+                        </svg>
+                    </a>
+                </div>
+
+
+            </div>
+            <div class="team__item">
+                <img class="team__photo" src="img/image/29.jpeg" alt="">
+                <div class="team__name">Min Yoongi</div>
+                <div class="team__prof">Producer, rapper</div>
+                <div class="team__text">
+                    <p>Originally joining the company as a music producer, Suga trained under Big Hit Entertainment for three years alongside members J-Hope and RM.</p>
+                    <p>He made his debut as a member of BTS on Mnet's M Countdown with the track "No More Dream" from their debut single album 2 Cool 4 Skool. In BTS with their debut. In BTS with their debut.</p>
+                </div>
+                
+
+<!--- /.social ---> <div class="social">
+                    <a class="social__item" href="#">
+                        <svg class="social__icon">
+                            <use xlink:href="#facebook"></use>
+                        </svg>
+                    </a>
+                    <a class="social__item" href="#">
+                        <svg class="social__icon--inst">
+                            <use xlink:href="#instagram"></use>
+                        </svg>
+                    </a>
+                    <a class="social__item" href="#">
+                        <svg class="social__icon--twitter">
+                            <use xlink:href="#twitter"></use>
+                        </svg>
+                    </a>
+                </div> 
+
+
+            </div>
+            <div class="team__item">
+                <img class="team__photo" src="img/image/30.jpeg" alt="">
+                <div class="team__name">Jeon Jungkook</div>
+                <div class="team__prof">Main vocals, Makne</div>
+                <div class="team__text">
+                    <p>Originally joining the company as a music producer, Suga trained under Big Hit Entertainment for three years alongside members J-Hope and RM.</p>
+                    <p>He made his debut as a member of BTS on Mnet's M Countdown with the track "No More Dream" from their debut single album 2 Cool 4 Skool. In BTS with their debut. In BTS with their debut.</p>
+                </div>
+
+
+<!--- /.social ---> <div class="social">
+                    <a class="social__item" href="#">
+                        <svg class="social__icon">
+                            <use xlink:href="#facebook"></use>
+                        </svg>
+                    </a>
+                    <a class="social__item" href="#">
+                        <svg class="social__icon--inst">
+                            <use xlink:href="#instagram"></use>
+                        </svg>
+                    </a>
+                    <a class="social__item" href="#">
+                        <svg class="social__icon--twitter">
+                            <use xlink:href="#twitter"></use>
+                        </svg>
+                    </a>
+                </div> 
+
+
+            </div>
+            <div class="team__item">
+                <img class="team__photo" src="img/image/31.jpeg" alt="">
+                <div class="team__name">Kim Namjoon</div>
+                <div class="team__prof">Leader, rapper</div>
+                <div class="team__text">
+                    <p>In 2010, Sleepy contacted RM, encouraging him to audition for Big Hit Entertainment CEO Bang Si-hyuk. Bang offered RM, then aged 16,[16] a spot at the record label, which he accepted immediately.</p>
+                    <p>Bang and Pdogg soon began forming a hip hop group that would eventually become the idol group BTS.</p>
+                </div>
+
+
+<!--- /.social ---> <div class="social">
+                    <a class="social__item" href="#">
+                        <svg class="social__icon">
+                            <use xlink:href="#facebook"></use>
+                        </svg>
+                    </a>
+                    <a class="social__item" href="#">
+                        <svg class="social__icon--inst">
+                            <use xlink:href="#instagram"></use>
+                        </svg>
+                    </a>
+                    <a class="social__item" href="#">
+                        <svg class="social__icon--twitter">
+                            <use xlink:href="#twitter"></use>
+                        </svg>
+                    </a>
+                </div>
+
+
+            </div>
+            <div class="team__item">
+                <img class="team__photo" src="img/image/32.jpeg" alt="">
+                <div class="team__name">Park Jimin</div>
+                <div class="team__prof">The main dancer, vocal</div>
+                <div class="team__text">
+                    <p>Jimin debuted as a vocalist and dancer in the group BTS on June 13, 2013. Under the group's name, he released three solo songs: "Lie", "Serendipity", and "Filter". "Lie" was released in 2016, as part.</p>
+                    <p>It was described as stunning and dramatic, conveying dark undertones and emotions in line with the overall concept.</p>
+                </div>
+
+
+<!--- /.social ---> <div class="social">
+                    <a class="social__item" href="#">
+                        <svg class="social__icon">
+                            <use xlink:href="#facebook"></use>
+                        </svg>
+                    </a>
+                    <a class="social__item" href="#">
+                        <svg class="social__icon--inst">
+                            <use xlink:href="#instagram"></use>
+                        </svg>
+                    </a>
+                    <a class="social__item" href="#">
+                        <svg class="social__icon--twitter">
+                            <use xlink:href="#twitter"></use>
+                        </svg>
+                    </a>
+                </div>
+            </div>
+        </div>
+    </div>
+</div> <!----------------- Team ------------------->
+
+<!----------- Reviews ----------->
+<div class="reviews">
+    <div class="container">
+        <div class="reviews__item">
+            <div class="reviews__photo">
+                <img class="reviews__img" src="img/image/17.jpeg" alt="">
+            </div>
+            <div class="reviews__text">I am a slave to the rhythm. I'm like a palette. I'm dancing the way I feel at this second. If you start thinking, that's it, you're a corpse. Performing is not about the mind, it's about feelings
+                <p class="reviews__author">Kim Namjun, Leader ot the BTS group</p>
+            </div>
+        </div>
+    </div>
+</div>
+
+<!----------- Download ----------->
+<div class="download">
+    <div class="container">
+
+        <h3 class="download__title">Are you ready to start? Download Now For Free</h3>
+        <div class="download__text">
+            <p>if you're insecure, nothing good will ever happen. After all, if you don't believe in yourself, who will?</p>
+        </div>
+        <a class="btn  btn--red  btn--long" href="#">Download Here</a>
+    </div>
+</div>
+
+<!----------- Footer ----------->
+<footer class="footer">
+    <div class="container">
+
+        <div class="footer__inner">
+            <div class="footer__block">
+                <h4 class="footer__title">Location</h4>
+                <address class="footer__address">
+                    <div>Seoul, Korea Republic</div>
+                    <div>2f Cheonggu Bldg 10-31 Gangnam-gu</div>
+                </address>
+            </div>
+            
+            <div class="footer__block">
+                <h4 class="footer__title">Share With Love</h4>
+                <div class="social  social--footer">
+                    <a class="social__item" href="#">
+                        <svg class="social__icon">
+                            <use xlink:href="#facebook"></use>
+                        </svg>
+                    </a>
+                    <a class="social__item" href="#">
+                        <svg class="social__icon--inst">
+                            <use xlink:href="#instagram"></use>
+                        </svg>
+                    </a>
+                    <a class="social__item" href="#">
+                        <svg class="social__icon--twitter">
+                            <use xlink:href="#twitter"></use>
+                        </svg>
+                    </a>
+                </div>
+            </div>
+
+            <div class="footer__block">
+                <h4 class="footer__title">About BTS</h4>
+                <div class="footer__text">
+                    <p>The best way to learn is to look at how the master works.</p>
+                </div>
+            </div>
+        </div>
+    </div>
+
+<!----------- Copyright ----------->
+    <div class="copyright">
+        <div class="container">
+            <div class="copyright__text">
+                <div>Bangtan (c) 2013 BTS. All Rights Reserved</div>
+                <div>Bang Si-hyuk 
+                    <div>Made <span>by Big Hit Entertainment</span></div>
+            </div>
+        </div>
+    </div>
+</footer>
+
+    
+</body>
+</html>
